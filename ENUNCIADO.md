@@ -2,7 +2,7 @@
 
 ![Topologia da rede](docs/topologia.png)
 
-**x = 10** → as redes `192.X.n.0/24` do diagrama ficam `192.10.n.0/24`.
+**x = 24** → as redes `192.X.n.0/24` do diagrama ficam `192.24.n.0/24`.
 
 ## Tarefas
 
@@ -47,15 +47,15 @@
 
 **Etapa 15:** Ative os serviços de segurança do IOS e da configuração.
 
-## Redes do diagrama (com x = 10)
+## Redes do diagrama (com x = 24)
 
 | Rede | Onde |
 |---|---|
-| 192.10.1.0/24 | LAN do R1 (S1, PC-A) |
-| 192.10.2.0/24 | LAN do R3 (S3, PC-C) |
-| 192.10.3.0/24 | LAN do R4 (S4, PC-D) |
-| 192.10.4.0/24 | LAN do R6 (S5, PC-E) |
-| 192.10.5.0/24 | INSIDE do R7 (PC-F) |
+| 192.24.1.0/24 | LAN do R1 (S1, PC-A) |
+| 192.24.2.0/24 | LAN do R3 (S3, PC-C) |
+| 192.24.3.0/24 | LAN do R4 (S4, PC-D) |
+| 192.24.4.0/24 | LAN do R6 (S5, PC-E) |
+| 192.24.5.0/24 | INSIDE do R7 (PC-F) |
 | 172.16.1.0/24 | DMZ do R7 (PC-B) |
 | 10.1.1.0/30 | R1 ↔ R2 (série) |
 | 10.2.2.0/30 | R2 ↔ R3 (série) |

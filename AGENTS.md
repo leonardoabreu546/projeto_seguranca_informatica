@@ -10,7 +10,7 @@ camadas de segurança: passwords, SSH, RADIUS/AAA, ACLs, firewall por zonas, IPS
 
 O enunciado completo está em [ENUNCIADO.md](ENUNCIADO.md) e o diagrama em [topologia.png](topologia.png).
 
-**Valor de X = 10.** Todas as redes `192.X.n.0/24` do diagrama são `192.10.n.0/24`.
+**Valor de X = 24.** Todas as redes `192.X.n.0/24` do diagrama são `192.24.n.0/24`.
 
 ## Regras para quem ajudar neste projeto
 
