@@ -70,6 +70,7 @@ interface Vlan1
  no ip address
  shutdown
 !
+banner motd #Acesso reservado a utilizadores autorizados.#
 !
 !
 !

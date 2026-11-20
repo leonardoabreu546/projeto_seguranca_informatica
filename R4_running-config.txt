@@ -62,6 +62,7 @@ ip flow-export version 9
 !
 !
 !
+banner motd #Acesso reservado a utilizadores autorizados.#
 !
 !
 !
