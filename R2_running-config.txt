@@ -40,17 +40,25 @@ spanning-tree mode pvst
 !
 !
 !
+interface Loopback0
+ ip address 62.48.16.12 255.255.255.0
+!
 interface GigabitEthernet0/0
- no ip address
+ ip address 10.6.6.2 255.255.255.252
  duplex auto
  speed auto
- shutdown
 !
 interface GigabitEthernet0/1
- no ip address
+ ip address 10.3.3.1 255.255.255.252
  duplex auto
  speed auto
- shutdown
+!
+interface Serial0/0/0
+ ip address 10.1.1.2 255.255.255.252
+!
+interface Serial0/0/1
+ ip address 10.2.2.1 255.255.255.252
+ clock rate 64000
 !
 interface Vlan1
  no ip address

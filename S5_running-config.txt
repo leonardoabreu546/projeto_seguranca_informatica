@@ -15,6 +15,7 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
+ switchport mode access
 !
 interface FastEthernet0/2
 !
@@ -67,8 +68,9 @@ interface GigabitEthernet0/1
 interface GigabitEthernet0/2
 !
 interface Vlan1
- no ip address
- shutdown
+ ip address 192.24.4.2 255.255.255.0
+!
+ip default-gateway 192.24.4.1
 !
 banner motd #Acesso reservado a utilizadores autorizados.#
 !
